@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-content: center;
+    font-family: "Overpass", sans-serif;
+}
+
+.container {
+    max-width: 325px;
+    background: hsl(213, 19%, 18%);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+
+
+.star {
+    width: 5%;
+    display: block;
+    background: hsl(214, 20%, 23%);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.title {
+    color: white;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.description {
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    padding-right: 20px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    }
+
+.btn {
+    background: hsl(214, 20%, 23%);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: hsl(216, 12%, 54%);
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.btn:hover {
+    color: white;
+    background: hsl(25, 97%, 53%);
+}
+
+.active {
+    color: white;
+    background: hsl(217, 12%, 63%);
+}
+
+.submit {
+    background:hsl(25, 97%, 53%);
+    border: none;
+    width: 100%;
+    color: white;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 15px;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 400;
+margin-bottom: 15px;
+}
+
+.submit:hover {
+    color: hsl(25, 97%, 53%);
+    background: white;
+    font-weight: 700
+}
+
+/*  Thank you view */
+
+.thanks-container {
+    max-width: 375px;
+    background: hsl(213, 19%, 18%);
+    padding: 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+.thanks-img {
+    display: block;
+    width: 60%;
+    padding: 15px;
+    margin-top: -20px;
+}
+
+.rating {
+color:hsl(25, 97%, 53%);
+font-weight: 400;
+background: hsl(214, 20%, 23%);
+width: 50%;
+padding: 10px 20px 10px 20px;
+font-size: 15px;
+text-align: center;
+font-family: "Overpass", sans-serif;
+border-radius: 20px;
+width: 60%;
+}
+
+.thank-you {
+    font-family: "Overpass", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.thanks-description {
+    font-family: "Overpass", sans-serif;
+color: hsl(216, 12%, 54%);
+padding: -10px;
+font-size: 15px;
+text-align: center;
+margin-bottom: 0px;
+}
+
+
+
